@@ -151,20 +151,6 @@
 			this.tabPage1.Text = "Gyro readings";
 			this.tabPage1.UseVisualStyleBackColor = true;
 			// 
-			// tabPage2
-			// 
-			this.tabPage2.Controls.Add( this.groupBox3 );
-			this.tabPage2.Controls.Add( this.groupBox2 );
-			this.tabPage2.Controls.Add( this.groupBox1 );
-			this.tabPage2.Controls.Add( this.graph );
-			this.tabPage2.Location = new System.Drawing.Point( 4, 22 );
-			this.tabPage2.Name = "tabPage1";
-			this.tabPage2.Padding = new System.Windows.Forms.Padding( 3 );
-			this.tabPage2.Size = new System.Drawing.Size( 626, 334 );
-			this.tabPage2.TabIndex = 0;
-			this.tabPage2.Text = "Gyro readings";
-			this.tabPage2.UseVisualStyleBackColor = true;
-			// 
 			// groupBox3
 			// 
 			this.groupBox3.Controls.Add( this.lblGZAvg );
@@ -893,4 +879,3 @@
 		private System.Windows.Forms.Label lblStatus;
 	}
 }
-

@@ -14,7 +14,14 @@ namespace GroundStation
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault( false );
-			Application.Run( new MainForm(args[0]) );
+			
+			string portName = null;
+			
+			if ( args.Length > 0 )
+				portName = args[0];
+			 
+			Application.Run( new MainForm(portName) );
+						
 		}
 	}
 }
